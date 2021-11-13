@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import PrimeraApp from './PrimeraApp';
 
-const saludo = <h1>Hola mundo</h1>
+import './index.css'
+import CounterApp from './CounterApp';
 
 const divRoot = document.querySelector("#root")
 
 
-ReactDOM.render(saludo, divRoot)
+
+ReactDOM.render(<CounterApp value={12} />, divRoot)
