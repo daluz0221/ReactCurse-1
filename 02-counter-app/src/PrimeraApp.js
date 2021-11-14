@@ -3,7 +3,7 @@ import React from 'react'
 import PropTypes from 'prop-types';
 
 
-const PrimeraApp = ( {saludos, subtitle='soy un fan tuyo'} ) => {
+const PrimeraApp = ( {saludos, subtitle='soy un fan de mimosa'} ) => {
     
  
 
@@ -25,7 +25,7 @@ PrimeraApp.propTypes = {
 }
 
 PrimeraApp.defaultProps = {
-    subtitle: 'soy fan de mimosa'
+    subtitle: 'soy tu fan'
 }
 
 export default PrimeraApp;

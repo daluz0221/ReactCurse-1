@@ -9,4 +9,5 @@ const divRoot = document.querySelector("#root")
 
 
 
+// ReactDOM.render(<PrimeraApp saludos="Hola noelle" />, divRoot)
 ReactDOM.render(<CounterApp value={12} />, divRoot)
